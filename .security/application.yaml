@@ -1,0 +1,9 @@
+system_id: "APP-003"
+name: "Marketing Website"
+business_owner: "marketing@company.com"
+technical_owner: "web-team"
+data_classification: "internal"
+criticality: "medium"
+regulatory_scope: "none"
+internet_facing: false
+profile: "auto"
