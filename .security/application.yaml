@@ -1,9 +1,22 @@
-system_id: "APP-003"
-name: "Marketing Website"
-business_owner: "marketing@company.com"
-technical_owner: "web-team"
-data_classification: "internal"
-criticality: "medium"
-regulatory_scope: "none"
-internet_facing: false
-profile: "auto"
+application:
+  system_id: "APP-003"
+  name: "Marketing Website"
+  business_owner: "marketing@company.com"
+  technical_owner: "web-team"
+  business_unit: "Marketing"
+  data_classification: "Internal"
+  internet_facing: false
+  regulatory_scope: []
+  criticality: "Medium"
+  lifecycle_state: "Active"
+
+security:
+  profile: "auto"
+
+delivery:
+  default_branch: "main"
+  ci_platform: "github-actions"
+
+ownership:
+  team_alias: "web-team"
+  support_email: "marketing@company.com"
